@@ -7,8 +7,8 @@ is generally useful and has no project-specific details baked in.
 ## Usage
 
 The container is built with docker and you can run it the normal way, just like any other docker image.
-The important part is that you need to bind the container port 80 to the host's container port 80 for
-it to be useful.
+The important part is that you need to bind the container port 80 to the host's port 80 for it to be 
+useful.
 
 It is published on dockerhub, so unless you want to modify it, you can just use the published image:
 
